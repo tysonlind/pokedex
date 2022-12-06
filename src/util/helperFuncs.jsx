@@ -8,7 +8,6 @@ export default function filterPokemon(
 
   if (allPokemon.pokemon) {
 
-    console.log(name, type, weakness);
 
     let fullList = allPokemon.pokemon;
     filteredPokemon = allPokemon.pokemon;
@@ -18,7 +17,6 @@ export default function filterPokemon(
         filteredPokemon = filteredPokemon.filter((pokemon) => {
             return pokemon.name == name;
         });
-        console.log(filteredPokemon);
     }
 
     if (type){
@@ -35,7 +33,6 @@ export default function filterPokemon(
         });
     }
 
-    //console.log(filteredPokemon);
     return filteredPokemon;
   }
 

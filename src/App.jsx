@@ -11,9 +11,6 @@ function App() {
   const [pokemonName, setPokemonName] = useState("");
   const [pokemonType, setPokemonType] = useState("");
   const [pokemonWeaknesses, setPokemonWeaknesses] = useState("");
-  console.log(pokemonWeaknesses);
-  console.log(pokemonName);
-  console.log(pokemonType);
 
   async function getPokemon() {
     try {
@@ -39,7 +36,6 @@ function App() {
     pokemonWeaknesses
   );
 
-  console.log(filteredPokemon);
 
   return (
     <div className="App">
