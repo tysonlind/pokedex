@@ -2,7 +2,8 @@ import "./App.css";
 import React, { useState, useEffect } from "react";
 import Header from "./components/header.jsx";
 import Pokemon from "./components/pokemon.jsx";
-import filterPokemon from "./util/helperFuncs.jsx";
+import { filterPokemon, arrayStringToUpperCase } from "./util/helperFuncs.jsx";
+import { flushSync } from 'react-dom';
 
 function App() {
   //Holds the state of the whole pokemon array of pokemon objects
@@ -11,14 +12,14 @@ function App() {
   const [pokemonName, setPokemonName] = useState("");
   const [pokemonType, setPokemonType] = useState("");
   const [pokemonWeaknesses, setPokemonWeaknesses] = useState("");
-
+  
   async function getPokemon() {
     try {
       let res = await fetch(
         "https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master/pokedex.json"
       );
       let pokemonArray = await res.json();
-      setAllPokemon(pokemonArray);
+      setAllPokemon(arrayStringToUpperCase(pokemonArray));
     } catch (e) {
       console.error(e);
     }
@@ -54,7 +55,7 @@ function App() {
                 value={pokemonName}
                 placeholder="Ex. Bulbasaur"
                 onChange={(event) => {
-                  setPokemonName(event.target.value);
+                  flushSync(() => {setPokemonName(event.target.value)});
                 }}
               />
               <label htmlFor="pokemon-type">Type:</label>
