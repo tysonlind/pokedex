@@ -11,12 +11,6 @@
   pointer-events: none;
 }
 
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 15s linear;
-  }
-} */
-
 .header {
   background-color: #282c34;
   min-height: 20vh;
@@ -29,19 +23,6 @@
   color: white;
 }
 
-/* not using a footer for now, but i'll hold onto this in case I need it
-
-.footer {
-  background-color: #282c34;
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-  min-height: 20vh;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
-
 .pokemonBody {
   background-color: #111111;
   display:flex;
@@ -51,20 +32,180 @@
   width: 100vw;
   min-height: 80vh;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
-.pokemonCard {
+.GRASSpokemonCard {
   margin: 25px 25px 25px 25px;
   width: 350px;
   height: 500px;
   border-radius: 5%;
-  border: 10px solid rgba(140,140,140,1);
-  background-color: #555555;
+  border: 10px solid white;
+  background-color: #9dfc85;
   box-shadow: 0px 0px 20px rgba(0,0,0,0.25), 0px 0px 40px rgba(0,0,0,0.5);
   font-size:1.5rem;
   font-weight: 600;
   font-family: 'Roboto';
+}
+.FIREpokemonCard {
+  margin: 25px 25px 25px 25px;
+  width: 350px;
+  height: 500px;
+  border-radius: 5%;
+  border: 10px solid white;
+  background-color: #f56e00;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.25), 0px 0px 40px rgba(0,0,0,0.5);
+  font-size:1.5rem;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+.WATERpokemonCard {
+  margin: 25px 25px 25px 25px;
+  width: 350px;
+  height: 500px;
+  border-radius: 5%;
+  border: 10px solid white;
+  background-color: #078bf8;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.25), 0px 0px 40px rgba(0,0,0,0.5);
+  font-size:1.5rem;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+.BUGpokemonCard {
+  margin: 25px 25px 25px 25px;
+  width: 350px;
+  height: 500px;
+  border-radius: 5%;
+  border: 10px solid white;
+  background-color: #88673c;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.25), 0px 0px 40px rgba(0,0,0,0.5);
+  font-size:1.5rem;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+.NORMALpokemonCard {
+  margin: 25px 25px 25px 25px;
+  width: 350px;
+  height: 500px;
+  border-radius: 5%;
+  border: 10px solid white;
+  background-color: #919191;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.25), 0px 0px 40px rgba(0,0,0,0.5);
+  font-size:1.5rem;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+.POISONpokemonCard {
+  margin: 25px 25px 25px 25px;
+  width: 350px;
+  height: 500px;
+  border-radius: 5%;
+  border: 10px solid white;
+  background-color: #d378e6;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.25), 0px 0px 40px rgba(0,0,0,0.5);
+  font-size:1.5rem;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+.ELECTRICpokemonCard {
+  margin: 25px 25px 25px 25px;
+  width: 350px;
+  height: 500px;
+  border-radius: 5%;
+  border: 10px solid white;
+  background-color: #e9ca18;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.25), 0px 0px 40px rgba(0,0,0,0.5);
+  font-size:1.5rem;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+.GROUNDpokemonCard {
+  margin: 25px 25px 25px 25px;
+  width: 350px;
+  height: 500px;
+  border-radius: 5%;
+  border: 10px solid white;
+  background-color: #8a6d48;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.25), 0px 0px 40px rgba(0,0,0,0.5);
+  font-size:1.5rem;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+.FIGHTINGpokemonCard {
+  margin: 25px 25px 25px 25px;
+  width: 350px;
+  height: 500px;
+  border-radius: 5%;
+  border: 10px solid white;
+  background-color: #ec7979;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.25), 0px 0px 40px rgba(0,0,0,0.5);
+  font-size:1.5rem;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+.PSYCHICpokemonCard {
+  margin: 25px 25px 25px 25px;
+  width: 350px;
+  height: 500px;
+  border-radius: 5%;
+  border: 10px solid white;
+  background-color: #fab7b7;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.25), 0px 0px 40px rgba(0,0,0,0.5);
+  font-size:1.5rem;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+.ROCKpokemonCard {
+  margin: 25px 25px 25px 25px;
+  width: 350px;
+  height: 500px;
+  border-radius: 5%;
+  border: 10px solid white;
+  background-color: #3f3125;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.25), 0px 0px 40px rgba(0,0,0,0.5);
+  font-size:1.5rem;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+.GHOSTpokemonCard {
+  margin: 25px 25px 25px 25px;
+  width: 350px;
+  height: 500px;
+  border-radius: 5%;
+  border: 10px solid white;
+  background-color: #9c57bd81;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.25), 0px 0px 40px rgba(0,0,0,0.5);
+  font-size:1.5rem;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+.ICEpokemonCard {
+  margin: 25px 25px 25px 25px;
+  width: 350px;
+  height: 500px;
+  border-radius: 5%;
+  border: 10px solid white;
+  background-color: #87cff8;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.25), 0px 0px 40px rgba(0,0,0,0.5);
+  font-size:1.5rem;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+.DRAGONpokemonCard {
+  margin: 25px 25px 25px 25px;
+  width: 350px;
+  height: 500px;
+  border-radius: 5%;
+  border: 10px solid white;
+  background-color: #7846ec;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.25), 0px 0px 40px rgba(0,0,0,0.5);
+  font-size:1.5rem;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+p {
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
 }
 
 .pokemonCard img {
@@ -80,20 +221,6 @@
   }
   100% {
     transform: translateY(0%);
-  }
-}
-
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
   }
 }
 
@@ -126,6 +253,7 @@
   padding: 0 3.5rem 0 1.5rem;
   font-size: 1em;
   color: black;
+  
 }
 .GRASSdiv {
   display:flex;
@@ -138,7 +266,8 @@
   border-radius: 15px;
   font-weight: 600;
   font-family:'Roboto';
-  background-color: green;
+  background-color: rgb(2, 168, 2);
+  box-shadow: 0px 1px 3px black;
 }
 .POISONdiv {
   display:flex;
@@ -152,6 +281,7 @@
   font-weight: 600;
   font-family:'Roboto';
   background-color: purple;
+  box-shadow: 0px 1px 3px black;
 }
 .FIREdiv {
   display:flex;
@@ -165,6 +295,7 @@
   font-weight: 600;
   font-family:'Roboto';
   background-color: orange;
+  box-shadow: 0px 1px 3px black;
 }
 .FLYINGdiv {
   display:flex;
@@ -178,6 +309,7 @@
   font-weight: 600;
   font-family:'Roboto';
   background-color: lightblue;
+  box-shadow: 0px 1px 3px black;
 }
 .WATERdiv {
   display:flex;
@@ -191,6 +323,7 @@
   font-weight: 600;
   font-family:'Roboto';
   background-color: rgb(0, 150, 255);
+  box-shadow: 0px 1px 3px black;
 }
 .BUGdiv {
   display:flex;
@@ -204,6 +337,7 @@
   font-weight: 600;
   font-family:'Roboto';
   background-color: #987554;
+  box-shadow: 0px 1px 3px black;
 }
 .NORMALdiv {
   display:flex;
@@ -217,6 +351,7 @@
   font-weight: 600;
   font-family:'Roboto';
   background-color: #BBBEB0;
+  box-shadow: 0px 1px 3px black;
 }
 .ELECTRICdiv {
   display:flex;
@@ -230,6 +365,7 @@
   font-weight: 600;
   font-family:'Roboto';
   background-color: rgb(217,180,21);
+  box-shadow: 0px 1px 3px black;
 }
 .GROUNDdiv {
   display:flex;
@@ -243,6 +379,7 @@
   font-weight: 600;
   font-family:'Roboto';
   background-color: rgb(224,193,102);
+  box-shadow: 0px 1px 3px black;
 }
 
 .FIGHTINGdiv {
@@ -257,6 +394,7 @@
   font-weight: 600;
   font-family:'Roboto';
   background-color: rgb(196,49,43);
+  box-shadow: 0px 1px 3px black;
 }
 
 .PSYCHICdiv {
@@ -271,6 +409,7 @@
   font-weight: 600;
   font-family:'Roboto';
   background-color: rgb(240,88,137);
+  box-shadow: 0px 1px 3px black;
 }
 
 .ROCKdiv {
@@ -285,6 +424,7 @@
   font-weight: 600;
   font-family:'Roboto';
   background-color: rgb(185,163,56);
+  box-shadow: 0px 1px 3px black;
 }
 
 .GHOSTdiv {
@@ -299,6 +439,7 @@
   font-weight: 600;
   font-family:'Roboto';
   background-color: rgb(113,89,154);
+  box-shadow: 0px 1px 3px black;
 }
 
 .ICEdiv {
@@ -313,6 +454,7 @@
   font-weight: 600;
   font-family:'Roboto';
   background-color: rgb(152,214,213);
+  box-shadow: 0px 1px 3px black;
 }
 
 .DRAGONdiv {
@@ -327,6 +469,7 @@
   font-weight: 600;
   font-family:'Roboto';
   background-color: rgb(99,87,166);
+  box-shadow: 0px 1px 3px black;
 }
 .DARKdiv {
   display:flex;
@@ -340,6 +483,7 @@
   font-weight: 600;
   font-family:'Roboto';
   background-color: rgb(69,57,136);
+  box-shadow: 0px 1px 3px black;
 }
 .STEELdiv {
   display:flex;
@@ -353,6 +497,7 @@
   font-weight: 600;
   font-family:'Roboto';
   background-color: #71797E;
+  box-shadow: 0px 1px 3px black;
 }
 .FAIRYdiv {
   display:flex;
@@ -366,6 +511,7 @@
   font-weight: 600;
   font-family:'Roboto';
   background-color: pink;
+  box-shadow: 0px 1px 3px black;
 }
 .weaknesses {
   height:35px;

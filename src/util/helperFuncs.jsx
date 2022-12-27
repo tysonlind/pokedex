@@ -13,7 +13,7 @@ function filterPokemon(
     if (name){
         //Filter fullList based on the name
         filteredPokemon = filteredPokemon.filter((pokemon) => {
-            return pokemon.name.toUpperCase() == name.toUpperCase();
+            return pokemon.name.toUpperCase() === name.toUpperCase();
         });
     }
 

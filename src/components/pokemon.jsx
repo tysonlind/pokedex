@@ -6,22 +6,21 @@ export default function Pokemon({
   imgSrc = "Loading...",
 }) {
   return (
-    <div className="pokemonCard ">
+    <div className={`${pokemonType[0]}pokemonCard`}>
       <p>{`#${pokemonNum}`}</p>
       <img src={imgSrc} alt="Pokemon" />
       <p>
-        Name:
-        <br />
+        <p>Name:</p>
         {pokemonName}
       </p>
-      Types:
+      <p>Types:</p>
       <div className="d-flex justify-content-center align-items-center text-align-center">
       
         {pokemonType.map((type, index) => {
           return <div key={index} className={type + "div"}><div>{type}</div> </div>;
         })}
       </div>
-      Weaknesses:
+      <p>Weaknesses:</p>
       <div className="d-flex justify-content-center align-items-center text-align-center wrap">
         
         <br />
