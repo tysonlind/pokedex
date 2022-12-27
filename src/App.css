@@ -270,7 +270,7 @@ p {
   border-radius: 15px;
   font-weight: 600;
   font-family:'Roboto';
-  background-color: rgb(100, 235, 100);
+  background-image: url(./images/grass.png);
   box-shadow: 0px 1px 3px black;
 }
 .POISONdiv {
@@ -298,7 +298,7 @@ p {
   border-radius: 15px;
   font-weight: 600;
   font-family:'Roboto';
-  background-color: orange;
+  background-image: url(./images/fire.png);
   box-shadow: 0px 1px 3px black;
 }
 .FLYINGdiv {
@@ -312,7 +312,7 @@ p {
   border-radius: 15px;
   font-weight: 600;
   font-family:'Roboto';
-  background-color: lightblue;
+  background-image: url(./images/flying.png);
   box-shadow: 0px 1px 3px black;
 }
 .WATERdiv {
@@ -326,7 +326,7 @@ p {
   border-radius: 15px;
   font-weight: 600;
   font-family:'Roboto';
-  background-color: rgb(0, 150, 255);
+  background-image: url(./images/water.png);
   box-shadow: 0px 1px 3px black;
 }
 .BUGdiv {
@@ -340,7 +340,7 @@ p {
   border-radius: 15px;
   font-weight: 600;
   font-family:'Roboto';
-  background-color: #987554;
+  background-image: url(./images/bug.png);
   box-shadow: 0px 1px 3px black;
 }
 .NORMALdiv {
@@ -369,6 +369,7 @@ p {
   font-weight: 600;
   font-family:'Roboto';
   background-color: rgb(217,180,21);
+  background-image: url(./images/electric.png);
   box-shadow: 0px 1px 3px black;
 }
 .GROUNDdiv {
@@ -382,7 +383,7 @@ p {
   border-radius: 15px;
   font-weight: 600;
   font-family:'Roboto';
-  background-color: rgb(224,193,102);
+  background-image: url(./images/ground.png);
   box-shadow: 0px 1px 3px black;
 }
 
@@ -412,7 +413,7 @@ p {
   border-radius: 15px;
   font-weight: 600;
   font-family:'Roboto';
-  background-color: rgb(240,88,137);
+  background-image: url(./images/psychic.png);
   box-shadow: 0px 1px 3px black;
 }
 
@@ -427,7 +428,7 @@ p {
   border-radius: 15px;
   font-weight: 600;
   font-family:'Roboto';
-  background-color: rgb(185,163,56);
+  background-image: url(./images/rock.png);
   box-shadow: 0px 1px 3px black;
 }
 
@@ -457,7 +458,7 @@ p {
   border-radius: 15px;
   font-weight: 600;
   font-family:'Roboto';
-  background-color: rgb(152,214,213);
+  background-image: url(./images/ice.png);
   box-shadow: 0px 1px 3px black;
 }
 
