@@ -3,7 +3,7 @@
 This project was created by [Tyson Lind](https://github.com/tysonlind)
 
 App Homepage
-![Screenshot](https://user-images.githubusercontent.com/23481564/208330717-6ab494da-2436-4230-a5fa-3aba3e0d8004.PNG)
+![pokemon_img](https://user-images.githubusercontent.com/23481564/209610641-2cacd176-216d-44e9-8b4c-f11abc002760.PNG)
 # Querying
 You can query using the following parameters (case insensitive):
 1. Name
