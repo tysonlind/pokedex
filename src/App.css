@@ -525,3 +525,6 @@ p {
   color: black;
   margin-bottom: 5px;
 }
+.thin-text {
+  font-weight: 400;
+}

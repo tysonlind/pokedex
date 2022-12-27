@@ -10,17 +10,17 @@ export default function Pokemon({
       <p>{`#${pokemonNum}`}</p>
       <img src={imgSrc} alt="Pokemon" />
       <p>
-        <p>Name:</p>
+        <p className="thin-text">Name:</p>
         {pokemonName}
       </p>
-      <p>Types:</p>
+      <p className="thin-text">Types:</p>
       <div className="d-flex justify-content-center align-items-center text-align-center">
       
         {pokemonType.map((type, index) => {
           return <div key={index} className={type + "div"}><div>{type}</div> </div>;
         })}
       </div>
-      <p>Weaknesses:</p>
+      <p className="thin-text">Weaknesses:</p>
       <div className="d-flex justify-content-center align-items-center text-align-center wrap">
         
         <br />
