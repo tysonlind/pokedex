@@ -5,19 +5,20 @@ export default function Pokemon({
   pokemonWeaknesses = "Loading...",
   imgSrc = "Loading...",
 }) {
+  //generates pokemonCard using props inherited from a derived mapped state of all Pokemon
   return (
     <div className={`${pokemonType[0]}pokemonCard`}>
-      <p>{`#${pokemonNum}`}</p>
+      <p className="thick-text">{`#${pokemonNum}`}</p>
       <img src={imgSrc} alt="Pokemon" />
       <p>
         <p className="thin-text">Name:</p>
-        {pokemonName}
+        <p className="no-margins">{pokemonName}</p>
       </p>
       <p className="thin-text">Types:</p>
       <div className="d-flex justify-content-center align-items-center text-align-center">
       
         {pokemonType.map((type, index) => {
-          return <div key={index} className={type + "div"}><div>{type}</div> </div>;
+          return <div key={index} className={type + "div" + " " + "types"}><div>{type}</div> </div>;
         })}
       </div>
       <p className="thin-text">Weaknesses:</p>
