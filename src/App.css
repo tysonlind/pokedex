@@ -210,7 +210,7 @@ p {
   margin-block-end: 0.5em;
 }
 
- img {
+ .cardImage {
   animation: updown 1s ease infinite;
   background-color: rgb(255,255,255,0.15);
   border-radius: 50%;

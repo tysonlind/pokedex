@@ -1,5 +1,5 @@
 function filterPokemon(
-  allPokemon = [],
+  allPokemon,
   name = "",
   type = "",
   weakness = ""

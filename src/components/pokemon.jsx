@@ -9,7 +9,7 @@ export default function Pokemon({
   return (
     <div className={`${pokemonType[0]}pokemonCard`}>
       <p className="thick-text">{`#${pokemonNum}`}</p>
-      <img src={imgSrc} alt="Pokemon" />
+      <img src={imgSrc} alt="Pokemon" className="cardImage" />
       <p>
         <p className="thin-text">Name:</p>
         <p className="no-margins">{pokemonName}</p>

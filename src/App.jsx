@@ -7,7 +7,7 @@ import { flushSync } from 'react-dom';
 
 function App() {
   //Holds the state of the whole pokemon array of pokemon objects
-  const [allPokemon, setAllPokemon] = useState({});
+  const [allPokemon, setAllPokemon] = useState([]);
   //state values grabbed from the search input text boxes
   const [pokemonName, setPokemonName] = useState("");
   const [pokemonType, setPokemonType] = useState("");
@@ -19,6 +19,7 @@ function App() {
         "https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master/pokedex.json"
       );
       let pokemonArray = await res.json();
+      console.log(pokemonArray);
       setAllPokemon(arrayStringToUpperCase(pokemonArray));
     } catch (e) {
       console.error(e);
