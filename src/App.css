@@ -539,3 +539,7 @@ p {
   margin: none;
   background-color: rgb(255,255,255,0.5);
 }
+label {
+  color: white;
+  font-weight: 600;
+}

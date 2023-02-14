@@ -25,8 +25,8 @@ export default function Pokemon({
       <div className="d-flex justify-content-center align-items-center text-align-center wrap">
         
         <br />
-        {pokemonWeaknesses.map((item, index) => {
-          return <div key={index} className={item + "div" + " " + "weaknesses"}>{item} </div>;
+        {pokemonWeaknesses.map((weakness, index) => {
+          return <div key={index} className={weakness + "div" + " " + "weaknesses"}>{weakness} </div>;
         })}
       </div>
     </div>
