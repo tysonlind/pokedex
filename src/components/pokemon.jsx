@@ -12,7 +12,7 @@ export default function Pokemon({
       <img src={imgSrc} alt="Pokemon" className="cardImage" />
       <p>
         <p className="thin-text">Name:</p>
-        <p className="no-margins">{pokemonName}</p>
+        <p className="no-margins light-box-shadow">{pokemonName}</p>
       </p>
       <p className="thin-text">Types:</p>
       <div className="d-flex justify-content-center align-items-center text-align-center">

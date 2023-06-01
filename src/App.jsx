@@ -48,7 +48,7 @@ function App() {
         <div className="pokemonBody">
           <div className="form-control-group">
             <form>
-              <label htmlFor="pokemon-name">Name:</label>
+              <label htmlFor="pokemon-name">Name</label>
               <input
                 type="text"
                 name="pokemon-name"
@@ -59,7 +59,7 @@ function App() {
                   flushSync(() => {setPokemonName(event.target.value)});
                 }}
               />
-              <label htmlFor="pokemon-type">Type:</label>
+              <label htmlFor="pokemon-type">Type</label>
               <input
                 name="pokemon-type"
                 id="pokemon-type"
@@ -70,7 +70,7 @@ function App() {
                   setPokemonType(event.target.value);
                 }}
               />
-              <label htmlFor="pokemon-weaknesses">Weaknesses:</label>
+              <label htmlFor="pokemon-weaknesses">Weaknesses</label>
               <input
                 name="pokemon-weaknesses"
                 id="pokemon-weaknesses"

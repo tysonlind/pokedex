@@ -4,6 +4,7 @@
   position:absolute;
   width:100vw;
   height:100vh;
+  font-family: 'Roboto', sans-serif;
 }
 
 .header-img {
@@ -14,19 +15,23 @@
 }
 
 .header {
-  background-color: #282c34;
-  min-height: 20vh;
-  max-height: 20vh;
+  background-image: url(https://ringsandcoins.com/wp-content/uploads/2016/02/Pokemon-Red-Blue-Banner.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  min-height: 30vh;
+  max-height: 30vh;
   width:100vw;
   display:flex;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  box-shadow: 0px 1px 10px rgba(0,0,0, .5);
+  z-index: 5;
 }
 
 .pokemonBody {
-  background-color: #111111;
+  background-color: rgb(226, 232, 235);
   display:flex;
   align-items: flex-start;
   justify-content: center;
@@ -44,7 +49,7 @@
   border-radius: 5%;
   border: 10px solid rgb(196, 252, 214);
   background-color: #84d66f;
-  box-shadow: 0px 0px 20px rgba(0,0,0,0.25), 0px 0px 40px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.15), 0px 0px 40px rgba(0,0,0,0.35);
   font-size:1.5rem;
   font-weight: 600;
   font-family: 'Roboto';
@@ -56,7 +61,7 @@
   border-radius: 5%;
   border: 10px solid rgb(252,225,100);
   background-color: #f56e00;
-  box-shadow: 0px 0px 20px rgba(0,0,0,0.25), 0px 0px 40px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.15), 0px 0px 40px rgba(0,0,0,0.35);
   font-size:1.5rem;
   font-weight: 600;
   font-family: 'Roboto';
@@ -68,7 +73,7 @@
   border-radius: 5%;
   border: 10px solid rgb(174, 212, 255);
   background-color: #078bf8;
-  box-shadow: 0px 0px 20px rgba(0,0,0,0.25), 0px 0px 40px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.15), 0px 0px 40px rgba(0,0,0,0.35);
   font-size:1.5rem;
   font-weight: 600;
   font-family: 'Roboto';
@@ -80,7 +85,7 @@
   border-radius: 5%;
   border: 10px solid rgb(185, 184, 176);
   background-color: #88673c;
-  box-shadow: 0px 0px 20px rgba(0,0,0,0.25), 0px 0px 40px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.15), 0px 0px 40px rgba(0,0,0,0.35);
   font-size:1.5rem;
   font-weight: 600;
   font-family: 'Roboto';
@@ -92,7 +97,7 @@
   border-radius: 5%;
   border: 10px solid white;
   background-color: #919191;
-  box-shadow: 0px 0px 20px rgba(0,0,0,0.25), 0px 0px 40px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.15), 0px 0px 40px rgba(0,0,0,0.35);
   font-size:1.5rem;
   font-weight: 600;
   font-family: 'Roboto';
@@ -104,7 +109,7 @@
   border-radius: 5%;
   border: 10px solid rgb(247, 230, 255);
   background-color: #d378e6;
-  box-shadow: 0px 0px 20px rgba(0,0,0,0.25), 0px 0px 40px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.15), 0px 0px 40px rgba(0,0,0,0.35);
   font-size:1.5rem;
   font-weight: 600;
   font-family: 'Roboto';
@@ -116,7 +121,7 @@
   border-radius: 5%;
   border: 10px solid rgb(255, 244, 193);
   background-color: #e9ca18;
-  box-shadow: 0px 0px 20px rgba(0,0,0,0.25), 0px 0px 40px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.15), 0px 0px 40px rgba(0,0,0,0.35);
   font-size:1.5rem;
   font-weight: 600;
   font-family: 'Roboto';
@@ -128,7 +133,7 @@
   border-radius: 5%;
   border: 10px solid rgb(231, 222, 181);
   background-color: #8a6d48;
-  box-shadow: 0px 0px 20px rgba(0,0,0,0.25), 0px 0px 40px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.15), 0px 0px 40px rgba(0,0,0,0.35);
   font-size:1.5rem;
   font-weight: 600;
   font-family: 'Roboto';
@@ -140,7 +145,7 @@
   border-radius: 5%;
   border: 10px solid rgb(255, 216, 216);
   background-color: #ec7979;
-  box-shadow: 0px 0px 20px rgba(0,0,0,0.25), 0px 0px 40px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.15), 0px 0px 40px rgba(0,0,0,0.35);
   font-size:1.5rem;
   font-weight: 600;
   font-family: 'Roboto';
@@ -152,7 +157,7 @@
   border-radius: 5%;
   border: 10px solid rgb(255, 234, 251);
   background-color: #fab7b7;
-  box-shadow: 0px 0px 20px rgba(0,0,0,0.25), 0px 0px 40px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.15), 0px 0px 40px rgba(0,0,0,0.35);
   font-size:1.5rem;
   font-weight: 600;
   font-family: 'Roboto';
@@ -164,7 +169,7 @@
   border-radius: 5%;
   border: 10px solid rgb(189, 182, 152);
   background-color: #3f3125;
-  box-shadow: 0px 0px 20px rgba(0,0,0,0.25), 0px 0px 40px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.15), 0px 0px 40px rgba(0,0,0,0.35);
   font-size:1.5rem;
   font-weight: 600;
   font-family: 'Roboto';
@@ -176,7 +181,7 @@
   border-radius: 5%;
   border: 10px solid rgb(241, 211, 255);
   background-color: #9c57bd81;
-  box-shadow: 0px 0px 20px rgba(0,0,0,0.25), 0px 0px 40px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.15), 0px 0px 40px rgba(0,0,0,0.35);
   font-size:1.5rem;
   font-weight: 600;
   font-family: 'Roboto';
@@ -188,7 +193,7 @@
   border-radius: 5%;
   border: 10px solid rgb(119, 166, 252);
   background-color: #87cff8;
-  box-shadow: 0px 0px 20px rgba(0,0,0,0.25), 0px 0px 40px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.15), 0px 0px 40px rgba(0,0,0,0.35);
   font-size:1.5rem;
   font-weight: 600;
   font-family: 'Roboto';
@@ -200,7 +205,7 @@
   border-radius: 5%;
   border: 10px solid rgb(227, 197, 255);
   background-color: #7846ec;
-  box-shadow: 0px 0px 20px rgba(0,0,0,0.25), 0px 0px 40px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.15), 0px 0px 40px rgba(0,0,0,0.35);
   font-size:1.5rem;
   font-weight: 600;
   font-family: 'Roboto';
@@ -212,8 +217,10 @@ p {
 
  .cardImage {
   animation: updown 1s ease infinite;
-  background-color: rgb(255,255,255,0.15);
-  border-radius: 50%;
+  border-radius: 25%;
+}
+.light-box-shadow {
+  box-shadow: 0px 0px 5px rgba(0,0,0, 0.15);
 }
 
 @keyframes updown {
@@ -250,13 +257,14 @@ p {
 .form-control-group input {
   width: 15%;
   height: 2.8rem;
-  background: lightblue;
+  background: rgb(196, 202, 205);
   outline: none;
   border: none;
   border-radius: 1.625rem;
   padding: 0 3.5rem 0 1.5rem;
   font-size: 1em;
   color: black;
+  box-shadow: inset 0px 0px 5px rgba(0,0,0, 0.15);
   
 }
 .GRASSdiv {
@@ -533,13 +541,16 @@ p {
   font-weight: 400;
 }
 .thick-text {
-  font-weight: 200;
+  font-weight: 900;
 }
 .no-margins{
-  margin: none;
-  background-color: rgb(255,255,255,0.5);
+  background-color: rgb(226, 232, 235, 0.5);
+  width:100%;
+  margin:auto;
 }
 label {
-  color: white;
-  font-weight: 600;
+  color: #333333;
+  font-weight: 900;
+  padding-right: 20px;
+  padding-left: 20px;
 }
